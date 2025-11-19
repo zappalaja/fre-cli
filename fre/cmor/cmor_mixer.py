@@ -389,9 +389,9 @@ def rewrite_netcdf_file_var( mip_var_cfgs: dict = None,
     else:
         fre_logger.info('assigning cmor_y')
         if lat_bnds is None:
-            cmor_y = cmor.axis("latitude", coord_vals=lat[:], units="degrees_N") #uncovered
+            cmor_y = cmor.axis("lat", coord_vals=lat[:], units="degrees_N") #uncovered #CHANGED_BY_JZ
         else:
-            cmor_y = cmor.axis("latitude", coord_vals=lat[:], cell_bounds=lat_bnds, units="degrees_N")
+            cmor_y = cmor.axis("lat", coord_vals=lat[:], cell_bounds=lat_bnds, units="degrees_N") #CHANGED_BY_JZ
         fre_logger.info('DONE assigning cmor_y')
 
     # setup cmor longitude axis if relevant
@@ -404,9 +404,9 @@ def rewrite_netcdf_file_var( mip_var_cfgs: dict = None,
     else:
         fre_logger.info('assigning cmor_x')
         if lon_bnds is None:
-            cmor_x = cmor.axis("longitude", coord_vals=lon[:], units="degrees_E") #uncovered
+            cmor_x = cmor.axis("lon", coord_vals=lon[:], units="degrees_E") #uncovered #CHANGED_BY_JZ
         else:
-            cmor_x = cmor.axis("longitude", coord_vals=lon[:], cell_bounds=lon_bnds, units="degrees_E")
+            cmor_x = cmor.axis("lon", coord_vals=lon[:], cell_bounds=lon_bnds, units="degrees_E") #CHANGED_BY_JZ
         fre_logger.info('DONE assigning cmor_x')
 
     cmor_grid = None
