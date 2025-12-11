@@ -43,7 +43,7 @@
     "source": "GFDL-SPEAR (2020, https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019MS001895): aerosol: interactive; atmos: GFDL-AM4C192 (Cubed-sphere (c192) - 0.5 degree nominal horizontal resolution; 33 levels; top level 1 hPa); atmosChem: fast chemistry, aerosol only; land: GFDL-LM4.0.1 (Cubed-sphere (c192) - 0.5 degree nominal horizontal resolution; 20 levels; bot level 10m); land:Veg:GFDL-LM4.0.1 (dynamic vegetation, dynamic land use); land:Hydro:GFDL-LM4.0.1 (soil water and ice, multi-layer snow, rivers and lakes); landIce:GFDL-LM4.0.1; ocean: GFDL-MOM6, tripolar; 360 x 320 longitude/latitude; 75 levels; top grid cell 0-2 m; seaIce: GFDL-SIS2.0,tripolar ; 360 x 320 longitude/latitude; 5 layers; 5 thickness categories",
     "source_id": "GFDL-SPEAR-MED",
     "#note_CMIP6": " **** The following are set correctly for CMIP6 and should not normally need editing",
-    "_controlled_vocabulary_file": "CMIP6_CV_new.json",
+    "_controlled_vocabulary_file": "CMIP6_CV.json",
     "_AXIS_ENTRY_FILE": "CMIP6_coordinate.json",
     "_FORMULA_VAR_FILE": "CMIP6_formula_terms.json",
     "_cmip6_option": "CMIP6",
@@ -54,4 +54,5 @@
     "#output_path_template": "Template for output path directory using tables keys or global attributes, these should follow the relevant data reference syntax",
     "output_path_template": "<mip_era><activity_id><institution_id><source_id><experiment_id><_member_id><table><variable_id><grid_label><version>",
     "output_file_template": "<variable_id><table><source_id><experiment_id><_member_id><grid_label>"
+
 }
