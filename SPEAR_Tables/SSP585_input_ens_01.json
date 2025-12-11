@@ -35,6 +35,7 @@
     "#note_optional": " **** The following descriptors are optional and may be set to an empty string ",
     "contact ": "gfdl.climate.model.info@noaa.gov",
     "history": "File was processed by fremetar (GFDL analog of CMOR). TripleID: [exper_id_JeWLYJP7qF,realiz_id_pbMpRPSf2U,run_id_lvywyeBtwv]",
+    "title": "GFDL-SPEAR-MED output prepared for FLP",
     "comment": "",
     "references": "SPEAR: The next generation GFDL modeling system for seasonal to multidecadal prediction and projection. Journal of Advances in Modeling Earth Systems, 12, e2019MS001895. https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019MS001895. The GFDL Data Portal (http://nomads.gfdl.noaa.gov/) provides access to NOAA/GFDL's publicly available model input and output data sets.",
     "#note_CV": " **** The following will be obtained from the CV and do not need to be defined here",
@@ -56,3 +57,4 @@
     "output_file_template": "<variable_id><table><source_id><experiment_id><_member_id><grid_label>"
 
 }
+
